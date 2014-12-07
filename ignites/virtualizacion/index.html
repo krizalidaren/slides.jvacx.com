@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>IGNITES</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/default.css">
+		<link rel="stylesheet" href="css/theme/mozilla.css" id="theme">
+		<link rel="stylesheet" href="css/base.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- PRESENTACI0N PARA IGNITES  20 SLIDES PROGRAMADOS PARA 5 MMINUTOS-->
+			<div class="slides">
+
+			<!-- SLIDE 1  caratula-->
+				<section>
+					<h3 class="main-title">Universidad Mayor de San Andres</h3>
+					<h5>
+						<strong  class="text-upper">Sociedad Científica Estudiantil</strong>
+					</h5>
+					<span class="title-area"><!-- USEN ESTA ETIQUETA SI SU TITULO ES CORTO--></span>
+
+					<!-- USEN ESTA ETIQUETA SI SU TITULO ES LARGO-->
+					<span class="title-area ">Virtualización</span>
+					<img class="logo-main" src="img/logo.png" alt="Nucle GNU Linux">
+					<img class="logo-main-left" src="img/r00tlogo.png" alt="UMSA">
+					<img class="logo-main-right"  src="img/umsa.gif" alt="r00thouse">
+				</section>
+
+			<!-- SLIDE 2 -->
+				<section data-transition="zoom" >
+				    <h2>¿Qué es la virtualización?</h2>
+				</section>
+
+			<!-- SLIDE 3 -->
+				<section data-transition="zoom" >
+					<h3>Un poco de Historia</h3>
+				    <ul>
+						<li class="fragment">Durante los '60 y '70 fue una idea muy popular</li>
+						<li class="fragment">En los '80 no parece tan buena idea pero cambia en los '90</li>
+						<li class="fragment">En 1998 se funda VMware</li>
+						<li class="fragment">2003 se lanza la primera versión de Xen</li>
+						<li class="fragment">2005 y 2006 Intel y AMD introducen esta tecnología</li>
+						<li class="fragment">2007 VirtualBox se libera como software libre</li>
+						<li class="fragment">2007 KVM se integra en el kernel 2.6.20</li>
+						<li class="fragment">2008 la empresa detrás de VirtualBox es comprada por Sun</li>
+						<li class="fragment">2008 Microsoft lanza la versión de Hyper-V</li>
+						<li class="fragment">2011 Se empiezan a incluir partes de Xen en el kernel 2.6.37</li>
+					</ul>
+				</section>
+
+			<!-- SLIDE 4 -->
+				<section data-transition="zoom"  >
+				    <h3>Características</h3>
+					<img width="750px" height="561px" src="img/virt.jpg" alt="Caracteristicas">
+				</section>
+
+			<!-- SLIDE 6 -->
+				<section data-transition="zoom">
+				    <h3>Tipos de virtualización</h3>
+				    <ol>
+						<li class="fragment">Virtualización por plataforma</li>
+						<ul>
+							<li class="fragment">Emulación o Simulación</li>
+							<li class="fragment">Virtualización nativa o completa</li>
+							<li class="fragment">Virtualización asistida por HW</li>
+							<li class="fragment">Paravirtualización</li>
+							<li class="fragment">Otros más</li>
+						</ul>
+						<li class="fragment">Virtualización por recursos</li>
+						<ul>
+							<li class="fragment">Discos RAID y gestores de volumenes (LVM)</li>
+							<li class="fragment">Virtualización de almacenamientos (SAN)</li>
+							<li class="fragment">Redes privadas virtuales (VPN)</li>
+							<li class="fragment">Cloud computing</li>
+							<li class="fragment">Otros más tambien</li>
+						</ul>
+					</ol>
+				</section>
+
+			<!-- SLIDE 7 -->
+				<section data-transition="zoom">
+					<h3>Virtualización por plataforma</h3>
+					<img width="750px" height="561px" src="img/tipo1.png" alt="Caracteristicas">
+				</section>
+
+			<!-- SLIDE 8 -->
+				<section data-transition="zoom">
+					<h3>Virtualización por recursos</h3>
+					<img width="750px" height="561px" src="img/lvm.png" alt="Caracteristicas">
+				</section>
+
+			<!-- SLIDE 5 -->
+				<section data-transition="zoom" >
+				    <h2>¿Qué es un Hypervisor?</h2>
+				</section>
+
+			<!-- SLIDE 6 -->
+				<section data-transition="zoom" >
+				    <h3>Hypervisor</h3>
+					<img width="750px" height="561px" src="img/hyper.png" alt="Caracteristicas">
+				</section>
+
+			<!-- SLIDE 9 -->
+				<section data-transition="zoom">
+					<h3>Tecnologías de Virtualización</h3>
+					<ul>
+						<li class="fragment">KVM: Kernel Based Virtual Machine</li>
+						<ul>
+							<li class="fragment">http://www.linux-kvm.org/page/Main_Page</li>
+						</ul>
+						<li class="fragment">Xen</li>
+						<ul>
+							<li class="fragment">http://www.xenproject.org/</li>
+						</ul>
+						<li class="fragment">VirtualBox</li>
+						<ul>
+							<li class="fragment"> https://www.virtualbox.org/</li>
+						</ul>
+						<li class="fragment">VMware Workstation</li>
+						<ul>
+							<li class="fragment"> http://www.vmware.com/es/products/desktop virtualization/workstation/overview.html</li>
+						</ul>
+						<li class="fragment">Qemu</li>
+						<ul>
+							<li class="fragment">http://wiki.qemu.org/Main_Page</li>
+						</ul>
+						<li class="fragment">LXC</li>
+						<ul>
+							<li class="fragment">https://linuxcontainers.org/</li>
+						</ul>
+					</ul>
+				</section>
+
+			<!-- SLIDE 10 -->
+				<section data-transition="zoom">
+					<img width="600px" height="620px" src="img/portada.jpg" alt="Caracteristicas">
+				</section>
+
+			<!-- SLIDE 11 -->
+				<section data-transition="zoom">
+					<h1>KVM/Qemu</h1>
+				</section>
+
+			<!-- SLIDE 12 -->
+				<section data-transition="zoom">
+					<h3>KVM/Qemu</h3>
+					<br></br>
+					<img src="img/kvm.jpg" alt="Caracteristicas">
+				</section>
+
+			<!-- SLIDE 13 -->
+				<section data-transition="zoom">
+					<h3>Características</h3>
+					<ul>
+						<li class="fragment">KVM permite ejecutar máquinas virtuales utilizando imágenes de disco que contienen sistemas operativos sin modificar.</li>
+						<li class="fragment">Cada máquina virtual tiene su propio hardware virtualizado.</li>
+						<li class="fragment">Posibilidad de sobreasignar recursos físicos para huéspedes virtualizados.</li>
+						<li class="fragment">Opción de virtualización de código abierto.</li>
+						<li class="fragment">Se compone específicamente de:</li>
+						<ul>
+							<li class="fragment">Módulo de kernel, kvm.ko, que proporciona la infraestructura de virtualización de base.</li>
+							<li class="fragment">Módulo de procesador específico, kvm intel.ko o kvm amd.ko.</li>
+						</ul>
+						<li class="fragment">KVM utiliza Virt-Manager como administrador de máquinas virtuales y Qemu como hypervisor.</li>
+					</ul>
+				</section>
+
+			<!-- SLIDE 14 -->
+				<section data-transition="zoom">
+					<h3>Limitaciones</h3>
+					<br></br>
+					<br></br>
+					<ul>
+						<li class="fragment">Sobre envío de memoria</li>
+						<li class="fragment">Sobrecarga de CPU</li>
+						<li class="fragment">Dispositivos virtualizados SCSI</li>
+						<li class="fragment">Dispositivos IDE virtualizados</li>
+					</ul>
+					<br></br>
+					<br></br>
+					<br></br>
+				</section>
+
+			<!-- SLIDE 15 -->
+				<section data-transition="zoom">
+					<h3>Crear una maquina virtual desde terminal</h3>
+					<br></br>
+					<pre><code data-trim contenteditable>
+ISO_PATH=/path/to/debian-testing.iso
+KVM_HOSTNAME=prueba.com
+KVM_RAM=1024
+KVM_CPU=2
+KVM_DISCO=10
+KVM_PATH=/vm/p-prueba.img
+
+sudo virt-install --connect=qemu:///system --name=${KVM_HOSTNAME}
+--ram=${KVM_RAM} --vcpus=${KVM_CPU} --check-cpu --disk path=${KVM_PATH},
+size=${KVM_DISCO} --cdrom=${ISO_PATH} --vnc --noautoconsole
+--os-type=linux --os-variant=debianwheezy
+--accelerate --network bridge=br0 --hvm --autostart
+
+					</code></pre>
+					<br></br>
+					<br></br>
+					<br></br>
+				</section>
+
+			<!-- SLIDE 16 -->
+				<section data-transition="zoom">
+					<h3>Crear una maquina virtual desde virt-manager</h3>
+					<img src="img/ikvm.png" alt="Caracteristicas">
+				</section>
+
+			<!-- SLIDE 17 -->
+				<section data-transition="zoom">
+					<h3>Al final</h3>
+					<br></br>
+					<img src="img/fkvm.png" alt="Caracteristicas">
+				</section>
+
+			<!-- SLIDE 18 -->
+				<section data-transition="zoom">
+					<h1>Conclusión</h1>
+				</section>
+
+			<!-- SLIDE 19 -->
+				<section data-transition="zoom">
+					<h1>Gracias</h1>
+				</section>
+
+			<!-- SLIDE 20 -->
+				<section data-transition="zoom">
+					<h3>Bibliografía</h3>
+					<ul>
+							<li><a href="http://www.linux-kvm.org/page/Main Page">http://www.linux-kvm.org/page/Main Page</a></li>
+							<li><a href="http://en.wikipedia.org/wiki/Hardware virtualization">http://en.wikipedia.org/wiki/Hardware virtualization</a></li>
+							<li><a href="http://en.wikipedia.org/wiki/Virtualization">http://en.wikipedia.org/wiki/Virtualization</a></li>
+							<li><a href="http://www.ibm.com/developerworks/ssa/linux/library/l-kvm-virtual- server/index.html">http://www.ibm.com/developerworks/ssa/linux/library/l-kvm-virtual- server/index.html</a></li>
+							<li><a href="http://es.wikipedia.org/wiki/Kernel-based_Virtual_Machine">http://es.wikipedia.org/wiki/Kernel-based_Virtual_Machine</a></li>
+							<li><a href="http://es.wikipedia.org/wiki/QEMU ">http://es.wikipedia.org/wiki/QEMU</a></li>
+							<li><a href="http://wiki.hacklab.org.bo/index.php?title=P%C3%A1gina_principal">http://wiki.hacklab.org.bo/index.php?title=P%C3%A1gina_principal</a></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			document.addEventListener('DOMContentLoaded', starter);
+			function starter(){
+				setInterval(function(){
+					Reveal.next();
+				}, 18000);
+			}
+
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>IGNITES</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/default.css">
+		<link rel="stylesheet" href="css/theme/mozilla.css" id="theme">
+		<link rel="stylesheet" href="css/base.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- PRESENTACI0N PARA IGNITES  20 SLIDES PROGRAMADOS PARA 5 MMINUTOS-->
+			<div class="slides">
+
+				<section data-transition="zoom">
+					<h3 class="main-title">Universidad Mayor de San Andres</h3>
+					<h5>
+						<strong  class="text-upper">Sociedad Científica Estudiantil</strong>
+					</h5>
+					<span class="title-area"><!-- USEN ESTA ETIQUETA SI SU TITULO ES CORTO--></span>
+
+					<!-- USEN ESTA ETIQUETA SI SU TITULO ES LARGO-->
+					<span class="title-area multiple">Something <br> more</span>
+					<img class="logo-main" src="img/logo.png" alt="Nucle GNU Linux">
+					<img class="logo-main-left" src="img/r00tlogo.png" alt="UMSA">
+					<img class="logo-main-right"  src="img/umsa.gif" alt="r00thouse">
+				</section>
+
+			<!-- SLIDE 1 -->
+				<section data-transition="zoom">
+					<h1>1</h1>
+				</section>
+
+			<!-- SLIDE 2 -->
+				<section data-transition="zoom">
+				    <h2>2</h2>
+				</section>
+
+			<!-- SLIDE 3 -->
+				<section data-transition="zoom">
+				    <h2>3</h2>
+				</section>
+
+			<!-- SLIDE 4 -->
+				<section data-transition="zoom">
+				    <h2>4</h2>
+				</section>
+
+			<!-- SLIDE 6 -->
+				<section data-transition="zoom">
+					<h1>5</h1>
+				</section>
+
+			<!-- SLIDE 6 -->
+				<section data-transition="zoom">
+					<h1>6</h1>
+				</section>
+
+			<!-- SLIDE 7 -->
+				<section data-transition="zoom">
+					<h1>7</h1>
+				</section>
+
+			<!-- SLIDE 8 -->
+				<section data-transition="zoom">
+					<h1>8</h1>
+				</section>
+
+			<!-- SLIDE 9 -->
+				<section data-transition="zoom">
+					<h1>9</h1>
+				</section>
+
+			<!-- SLIDE 10 -->
+				<section data-transition="zoom">
+					<h1>10</h1>
+				</section>
+
+			<!-- SLIDE 11 -->
+				<section data-transition="zoom">
+					<h1>11</h1>
+				</section>
+
+			<!-- SLIDE 12 -->
+				<section data-transition="zoom">
+					<h1>12</h1>
+				</section>
+
+			<!-- SLIDE 13 -->
+				<section data-transition="zoom">
+					<h1>13</h1>
+				</section>
+
+			<!-- SLIDE 14 -->
+				<section data-transition="zoom">
+					<h1>14</h1>
+				</section>
+
+			<!-- SLIDE 15 -->
+				<section data-transition="zoom">
+					<h1>15</h1>
+				</section>
+
+			<!-- SLIDE 16 -->
+				<section data-transition="zoom">
+					<h1>16</h1>
+				</section>
+
+			<!-- SLIDE 17 -->
+				<section data-transition="zoom">
+					<h1>17</h1>
+				</section>
+
+			<!-- SLIDE 18 -->
+				<section data-transition="zoom">
+					<h1>18</h1>
+				</section>
+
+			<!-- SLIDE 19 -->
+				<section data-transition="zoom">
+					<h1>19</h1>
+				</section>
+
+			<!-- SLIDE 20 -->
+				<section data-transition="zoom">
+					<h1>20</h1>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			document.addEventListener('DOMContentLoaded', starter);
+			function starter(){
+				setInterval(function(){
+					Reveal.next();
+				}, 18000);
+			}
+
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,191 @@
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/OpenSans-Light.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/OpenSans.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(../fonts/OpenSans-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(../fonts/OpenSans-Semibold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(../fonts/OpenSans-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/oswald-light-webfont.eot');
+    src: url('../fonts/oswald-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald-light-webfont.woff') format('woff'),
+         url('../fonts/oswald-light-webfont.ttf') format('truetype'),
+         url('../fonts/oswald-light-webfont.svg#oswaldlight') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/oswald-regular-webfont.eot');
+    src: url('../fonts/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald-regular-webfont.woff') format('woff'),
+         url('../fonts/oswald-regular-webfont.ttf') format('truetype'),
+         url('../fonts/oswald-regular-webfont.svg#oswaldbook') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/oswald-bold-webfont.eot');
+    src: url('../fonts/oswald-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald-bold-webfont.woff') format('woff'),
+         url('../fonts/oswald-bold-webfont.ttf') format('truetype'),
+         url('../fonts/oswald-bold-webfont.svg#oswaldbold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+   font-family: 'changa';
+   font-style: normal;
+   src: url(../fonts/changa.ttf) format('truetype');
+}
+
+
+.reveal section img.logo-main {
+    border: 0px !important;
+    background: transparent !important;
+    box-shadow: none;
+    height: 520px;
+    width: 380px;
+}
+
+h3.main-title {
+    font-size: 40px;
+    margin: 0;
+    line-height: 1em;
+}
+
+h1.main-title {
+    font-weight: bold;
+    font-family:  sans-serif, Helvetica, Arial;
+    font-size: 80px;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+strong.text-upper {
+    font-size: 25px;
+}
+
+img.logo-main-left {
+    bottom: -20px;
+    position: absolute;
+    left: 150px;
+    height: 150px;
+    width: 150px;
+}
+img.logo-main-right {
+    bottom: -20px;
+    position: absolute;
+    right: 120px;
+    width: 100px;
+}
+
+section.sixty-seconds {
+    background: url(img/infographic.jpg) !important;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 800px;
+
+}
+
+section .infographic {
+    box-shadow: 0 0 150px #222;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: block;
+    /*position: fixed;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    height: 100%;
+    width: 100%;
+}
+ol.list-small{
+    padding-left: 100px;
+}
+
+ol.list-small li{
+    font-size: 32px;
+}
+ol.list-very-small li{
+    font-size: 25px;
+}
+
+img.twisted {
+    border-radius: 5px;
+    border: 2px solid #efefef;
+}
+
+
+.info-ley {
+    width: 70% !important;
+    margin-left: 15%;
+    margin: 0 auto;
+}
+
+.sl-logo {
+    bottom: 240px !important;
+    width: 200px !important;
+    height: 80px;
+    right: 40px;
+}
+
+/* -------------------------------------------------------------------------- *\
+    $$ CARATULA
+\* -------------------------------------------------------------------------- */
+
+
+section {
+    position: relative;
+}
+section .title-area {
+    font-family: 'changa';
+    color: #cf000f;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 180px;
+}
+
+section .title-area.multiple {
+    margin-top: 150px;
+    font-size: 45px;
+    line-height: 35px;
+}
