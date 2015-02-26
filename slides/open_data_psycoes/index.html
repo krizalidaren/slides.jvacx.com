@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>PSYCOES</title>
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/default.css">
+		<link rel="stylesheet" href="css/theme/mozilla.css" id="theme">
+		<link rel="stylesheet" href="css/base.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- PRESENTACI0N PARA IGNITES  20 SLIDES PROGRAMADOS PARA 5 MMINUTOS-->
+			<div class="slides">
+
+			<!-- SLIDE 1  caratula-->
+				<section>
+					<h3 class="main-title"><strong>PSYCOES</strong></h3>
+					<small style="display:block;">Open Data - Bolivia 2015</small><br>
+					<img class="logo-main" src="img/logo.png"><br><br>
+					<h3><small>es un <strong>SICOES</strong> usable.</small></h3>
+				</section>
+
+				<section>
+					<h3 >TEAM</h3>
+					<small style="display:block; line-height:1.4em; font-size: 25px;">Victor Aguilar Cusicanqui - <strong>@jvacx</strong></small>
+					<small style="display:block; line-height:1.4em;">Alex Condori - <strong>@axeljim_06</strong></small>
+					<small style="display:block; line-height:1.4em;">Renato Velasquez - <strong>@ren_velasquez</strong></small>
+					<small style="display:block; line-height:1.4em;">Hernan Rengel - <strong>@Brosso3D</strong></small>
+					<small style="display:block; line-height:1.4em;">Jhonny Cruz - <strong>@jhonlimaster</strong></small>
+				</section>
+
+			<!-- SLIDE 2 -->
+
+				<section data-background="img/slides/problema.jpg" data-transition="" >
+				    <h2 class="lite-title" style="width: 250px;">EL PROBLEMA</h2>
+				</section>
+
+				<section data-background="img/slides/todo_es_movil.jpg" data-transition="" >
+				    <h2 class="lite-title" style="width: 350px;">Casi todo es movil</h2>
+				</section>
+
+				<section data-background="img/slides/objetivos.jpg" data-transition="" >
+				    <h2 class="lite-title" style="width: 200px;">OBJETIVOS</h2>
+				</section>
+
+				<section data-background="img/slides/datos.jpg" data-transition="" >
+				    <h2 class="lite-title" style="width: 180px;">DATOS</h2>
+				</section>
+
+
+				<section data-background="img/slides/image.png">
+				    <h2 class="lite-title" style="width: 300px;">1er. Prototipo</h2>
+				</section>
+				<section data-background="img/slides/continue.jpg">
+				    <h2 class="lite-title" style="width: 300px;">Muchas Gracias...</h2>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
