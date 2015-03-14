@@ -72,6 +72,13 @@
    src: url(../fonts/changa.ttf) format('truetype');
 }
 
+@font-face {
+   font-family: 'Chelsea';
+   font-style: normal;
+   font-weight: 400;
+   src: url(../fonts/chelsea.ttf) format('truetype');
+}
+
 
 .reveal section img.logo-main {
     border: 0px !important;
@@ -203,6 +210,7 @@ section .title-area.multiple {
 }
 
 section h2 {
+    font-family: "Chelsea", Helvetica, Arial !important;
     font-weight: bold !important;
     font-size: 50px !important;
 }
