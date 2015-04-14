@@ -1,0 +1,185 @@
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/OpenSans-Light.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/OpenSans.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(../fonts/OpenSans-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(../fonts/OpenSans-Semibold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(../fonts/OpenSans-Bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/oswald-light-webfont.eot');
+    src: url('../fonts/oswald-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald-light-webfont.woff') format('woff'),
+         url('../fonts/oswald-light-webfont.ttf') format('truetype'),
+         url('../fonts/oswald-light-webfont.svg#oswaldlight') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/oswald-regular-webfont.eot');
+    src: url('../fonts/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald-regular-webfont.woff') format('woff'),
+         url('../fonts/oswald-regular-webfont.ttf') format('truetype'),
+         url('../fonts/oswald-regular-webfont.svg#oswaldbook') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/oswald-bold-webfont.eot');
+    src: url('../fonts/oswald-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald-bold-webfont.woff') format('woff'),
+         url('../fonts/oswald-bold-webfont.ttf') format('truetype'),
+         url('../fonts/oswald-bold-webfont.svg#oswaldbold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+   font-family: 'changa';
+   font-style: normal;
+   src: url(../fonts/changa.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Chelsea';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/chelsea.ttf) format('truetype');
+}
+
+.reveal section img.logo-main {
+    border: 0px !important;
+    background: transparent !important;
+    box-shadow: none;
+}
+
+.reveal .intro-image {
+    width: 100px;
+    margin-bottom: 20px;
+
+}
+.reveal .intro-image.small {
+    width: 50px;
+}
+
+.reveal .intro-image.big {
+    width: 250px;
+}
+
+.reveal .title {
+    font-family: 'Chelsea', serif;
+    font-size: 40px;
+}
+.reveal .title.white {
+    color: white;
+}
+
+.reveal .list li {
+
+}
+
+.reveal .list.no-style li {
+    list-style: none;
+}
+
+.reveal .list.white {
+    color: #d6d6d6;
+}
+.reveal .small.text {
+    font-size: 25px;
+}
+
+
+.reveal .list.shell li {
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    font-family: sans-serif;
+    list-style: none;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+}
+.reveal .list.shell.lineal li {
+    display: inline-block;
+}
+
+
+.reveal .text.white {
+    color: white;
+}
+
+
+.reveal .list li {
+    list-style: square;
+    font-family: 'Open Sans', serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+/* -------------------------------------------------------------------------- *\
+    $$ CARATULA
+\* -------------------------------------------------------------------------- */
+
+
+section {
+    position: relative;
+}
+section .title-area {
+    font-family: 'changa';
+    color: #cf000f;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 180px;
+}
+
+section .title-area.multiple {
+    margin-top: 150px;
+    font-size: 45px;
+    line-height: 35px;
+}
+
+
+/* dismiss titles*/
+
+@-webkit-keyframes dismiss {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}

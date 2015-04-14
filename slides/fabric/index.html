@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>FABRIC</title>
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/default.css">
+		<link rel="stylesheet" href="css/theme/mozilla.css" id="theme">
+		<link rel="stylesheet" href="css/base.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- PRESENTACI0N PARA IGNITES  20 SLIDES PROGRAMADOS PARA 5 MMINUTOS-->
+			<div class="slides">
+
+			<!-- SLIDE 1  caratula-->
+				<section data-background="#efefef" data-transition="slide" >
+					<img class="intro-image" src="img/python.png" alt="">
+				    <h2 class="title">FABRIC.PY</h2>
+				    <p class="text">Automatiza tus areas IT</p><br>
+				    <p class="small text">Victor Aguilar - <strong>@jvacx</strong></p><br>
+				</section>
+
+				<section data-background="#fff" data-transition="slide" >
+					<img class="big intro-image" src="img/devop.png" alt="">
+				    <h2 class="darken title">DevOps</h2>
+				    <ul class="darken list no-style">
+				    	<li class="fragment">Developer</li>
+				    	<li class="fragment">Operations</li>
+				    </ul>
+				</section>
+
+				<section data-background="#fff" data-transition="slide" >
+					<img class="fragment intro-image" src="img/ilusion.png" alt="">
+				    <h2 class="darken title">MI PRIMER SERVER</h2>
+				    <ul class="darken list no-style">
+				    	<li class="fragment">¿ Como rayos me conecto ?</li>
+				    	<li class="fragment">¿ Ahora como instalo cosas ?</li>
+				    </ul>
+				</section>
+
+				<section data-background="#16a085" data-transition="slide" >
+					<img class="intro-image" src="img/ssh.png" alt="">
+				    <h2 class="white title">SSH TODO EL TIEMPO</h2>
+				    <ul class="white list">
+				    	<li class="fragment">Conectarse al servidor</li>
+				    	<li class="fragment">Instalar Cosas</li>
+				    	<li class="fragment">Copiar Archivos</li>
+				    	<li class="fragment">Administrar</li>
+				    </ul>
+				</section>
+
+				<section data-background="#2980b9" data-transition="slide" >
+					<img class="intro-image" src="img/gears.png" alt="">
+				    <h2 class="white title">SCRIPTS PARA TODO</h2>
+				    <ul class="white list">
+				    	<li class="fragment">Copiar archivos</li>
+				    	<li class="fragment">Hacer backups</li>
+				    	<li class="fragment">Hacer migraciones</li>
+				    	<li class="fragment">Convertir imágenes.</li>
+				    </ul>
+				</section>
+
+				<section data-background="#2C3E50" data-transition="slide" >
+					<img class="intro-image" src="img/tasks.png" alt="">
+				    <h2 class="white title">TAREAS</h2>
+				    <h5 class="white text fragment">Actualizar el servidor</h5>
+				    <ul class="white list">
+				    	<li class="fragment">ssh jvacx@104.236.57.9</li>
+				    	<li class="fragment">sudo apt-get update</li>
+				    	<li class="fragment">sudo apt-get upgrade</li>
+				    	<li class="fragment">sudo apt-get autoclean</li>
+				    </ul>
+				</section>
+
+				<section data-background="#efefef" data-transition="slide" >
+					<img class="intro-image" src="img/python.png" alt="">
+				    <h2 class="title">FABRIC.PY</h2>
+				    <p class="small text fragment">Librería y Herramienta de linea de <br>comandos para manejar tareas de administración.</p>
+				    <ul class="list">
+				    	<li class="fragment">Conexion SSH.</li>
+				    	<li class="fragment">Gestion de Tareas.</li>
+				    	<li class="fragment">Ejecucion de comandos.</li>
+				    </ul>
+				</section>
+
+				<section data-background="#27ae60" data-transition="slide" >
+					<img class="intro-image" src="img/installation.png" alt="">
+				    <h2 class="white title">INSTALACIÓN</h2><br>
+				    <ul class="shell list">
+				    	<li class="fragment">sudo apt-get install python-pip</li>
+				    	<li class="fragment">sudo pip install fabric</li>
+				    	<li class="fragment">Ejecucion de comandos.</li>
+				    </ul>
+				</section>
+
+				<section data-background="#27ae60" data-transition="slide" >
+					<img class="intro-image" src="img/installation.png" alt="">
+				    <h2 class="white title">COMANDOS COMUNES</h2><br>
+				    <ul class="shell lineal list">
+				    	<li class="fragment">run</li>
+				    	<li class="fragment">sudo</li>
+				    	<li class="fragment">get</li>
+				    	<li class="fragment">put</li>
+				    </ul>
+				</section>
+
+				<section data-background="#34495e" data-transition="slide" >
+					<img class="intro-image" src="img/tools.png" alt="">
+				    <h2 class="white title">EJEMPLO</h2>
+				    <span class="white text">Actualizar el Servidor</span><br><br>
+
+				</section>
+
+				<section data-background="#34495e" data-transition="slide" >
+					<img class="intro-image" src="img/tools.png" alt="">
+				    <h2 class="white title">EJEMPLO AVANZADO</h2>
+				    <span class="white text">Despliegue de una APP Django</span><br><br>
+				    <a href="https://gist.github.com/jvacx/4eae2350ce324846e6e3">GIST fabfile.py</a>
+				</section>
+
+				<section data-background="#efefef" data-transition="slide" >
+					<img class="intro-image" src="img/python.png" alt="">
+				    <h2 class="title">GRACIAS</h2>
+				    <p class="text">
+				    <a href="http://jvacx.com">Victor Aguilar - @jvacx </a>
+				    </p><br>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
