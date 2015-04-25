@@ -1,0 +1,152 @@
+Hola a todos primero muchas gracias por asistir.
+soy Victor Aguilar.
+y Actualmente me dedico a desarrollar aplicaciones web con python, Django.
+Ademas de desarrollar aplciaciones mobiles y crear algunas pequeñas herramientas en JavaScript.
+
+Antes de empezar con la Charla quisiera hablar de unos conceptos fundamentales para luego hablar de git y github.
+Estoy seguro que mucho.
+
+[PROYECTO]
+
+Estoy seguro que todos nosotros en algún momento fuimos participes, estamos participando o participaremos del
+desarrollo de algún proyecto.
+
+[TIMELINE]
+
+entonces sabemos que los proyectos tienen un ciclo de vida, un timeline, una linea de tiempo.
+
+¿Pero que es una linea de tiempo?
+Es basicamente una linea de sucesos en un lapse de tiempo. y es asi como vemos nuestro proyecto.
+
+[TIMELINE - PROYECTO]
+
+Entonces un proyecto tiene un timeline definido.
+
+1. El proyecto Inicia.
+2. El primer beta.
+3. El lanzamiento oficial.
+4. Cuando se desarrolla un plugin.
+3. El plugin crece en funcionalidad y se convierte en modulo.
+6. El modulo se hace tan gran que llega a ser un proyecto independiente.
+7. El proyecto queda obsoleto y termina su ciclo de vida.
+
+
+Pero ocurria que cuando trabajamos en un proyecto,
+generalmente en equipo llegabamos a un punto en que nos pasaba estas cosas.
+
+
+
+[EL CODIGO YA NO FUNCIONA - hice una cambio en el código y ahora el proyecto no funciona]
+
+Seguro alguna vez les paso que le hicieron un pequeño camio al proyecto y este dejo de funcionar y
+encontrar el error les tomo mucho tiempo y esfuerzo y de das cuenta que ser precavido tampoco esta fucionando
+
+[SER PRECAVIDO TAMPOCO FUNCIONA]
+
+Y siendo precavidos empezamos a crear copias de nuestro proyecto por todo lado, hasta el punto en que ya no sabemos
+cual era el proyecto que tenia los ultimos cambios.
+
+y eso nos lleva a preguntarnos
+
+[QUIEN TIENE LA ULTIMA VERSION]
+
+Cada uno en el equipo tiene una version diferente. peor cuando piensas que las cosas no podrian
+empeorar pasa que la fecha de cierre del proyecto esta proxima y toca.
+
+[UNIR CODIGO]
+
+y esta tarea es practicamente titanica, porque ademas se encuenntran muchos errores y toma muhcisimo tiempo.
+es por eso que para solucionar estos problemas han surgido herramientas que ayudan a gestionar versiones.
+
+O puede simplemente pasarte algo inesperado, algo como:
+
+[OLVIDAR HACER BACKUP]
+
+
+[GESTION DE VERSIONES]
+
+Hay muchas herramientas de las cuales la mas popular es GIT
+
+[GIT]
+
+¿pero porque git cuales son sus ventajas y enfoque?
+- Software Libre.
+- Inicialmente fué creado por Linux Torvalds (creador del kernel Linux).
+- Gestion distribuida/Centralizada.
+- Manejo de versiones local.
+- Impulsa el trabajo en equipo.
+- Permite ramificaciones y combinaciones.
+
+
+pero a todo esto:
+
+¿ QUIENES USAN GIT ?
+
+- Linux
+- KDE
+- Android
+- Drupal
+- Django
+- Ruby on Rails
+- Gnome
+- Postgres
+
+- Blizzard
+- Facebook
+- Redhat
+- Microsoft
+- Yahoo
+- Twitter
+- y porsupuesto la comunidad de software libre.
+
+
+¿ Pero y que de github  ?
+
+con la popularidad creciente del uso de GIT han surgido otra nueva necesidad y es:
+
+[¿Donde guardar mi proyecto?]
+
+plataformas que  nosotros utilizar para versionar nuestros proyectos.
+una de las mas populares es:
+
+[GITHUB]
+
+En donde puedes administrar de manera gratuita proyectos de software libre.
+- Soporte para pull requests.
+- Freemium.
+- Soporte de manejo issues.
+- Soporte de snippets GISTS.
+- Interfaz web amigable.
+
+
+Pero poninedonos a pensar porque esas empresas lo utilizan es presisamente por como funciona.
+
+pero antes vamos a aclara que:
+en  GIT
+
+PROYECTO = REPOSITORIO.
+
+
+¿ COMO SE USA GIT ?
+
+- Crear un repositorio
+- Clonar un repositorio
+- Flujo de trabajo
+- Agregar archivos y crear un commit.
+- Envio de los cambios.
+- Ramas.
+- actualiza y fusiona.
+- datos utiles.
+
+
+
+
+
+
+
+
+
+
+
+
+
